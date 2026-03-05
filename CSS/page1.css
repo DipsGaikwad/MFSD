@@ -1,0 +1,49 @@
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        pre {
+            font-family: "Courier New", monospace;
+            background-color: #e8f0fe;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .box {
+            background-color: aqua;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: justify;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        b {
+            color: darkred;
+        }
+
+        i {
+            color: green;
+        }
+
+        u {
+            color: purple;
+        }
+
+        del {
+            color: gray;
+        }
+    

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales and Profit Report</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 70%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        table, th, td {
+            border: 1px solid #555;
+        }
+
+        th {
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        .total {
+            background-color: #ecf0f1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Monthly Sales and Profit Report</h1>
+
+    <table>
+        <!-- Table Heading -->
+        <tr>
+            <th rowspan="2">Product</th>
+            <th colspan="2">January</th>
+            <th colspan="2">February</th>
+            <th colspan="2">March</th>
+        </tr>
+
+        <tr>
+            <th>Sales ($)</th>
+            <th>Profit ($)</th>
+            <th>Sales ($)</th>
+            <th>Profit ($)</th>
+            <th>Sales ($)</th>
+            <th>Profit ($)</th>
+        </tr>
+
+        <!-- Data Rows -->
+        <tr>
+            <td>Product A</td>
+            <td>1200</td>
+            <td>300</td>
+            <td>1500</td>
+            <td>400</td>
+            <td>1700</td>
+            <td>450</td>
+        </tr>
+
+        <tr>
+            <td>Product B</td>
+            <td>1000</td>
+            <td>250</td>
+            <td>1300</td>
+            <td>350</td>
+            <td>1600</td>
+            <td>420</td>
+        </tr>
+
+        <tr>
+            <td>Product C</td>
+            <td>900</td>
+            <td>200</td>
+            <td>1100</td>
+            <td>280</td>
+            <td>1400</td>
+            <td>360</td>
+        </tr>
+
+        <!-- Total Row -->
+        <tr class="total">
+            <td>Total</td>
+            <td colspan="2">3450</td>
+            <td colspan="2">4230</td>
+            <td colspan="2">5930</td>
+        </tr>
+    </table>
+
+</body>
+</html>

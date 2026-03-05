@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.center {
+    display: block;
+    margin: 20px auto;
+    /* centers the image with spacing */
+    padding: 10px;
+    /* space inside the border */
+    border: 3px solid #333;
+    /* border around the image */
+    width: 250px;
+    /* fixed width */
+    height: 300px;
+    /* fixed height */
+    background-color: #e8f0fe;
+    /* background behind the image */
+    border-radius: 8px;
+    /* rounded corners */
+}
+
+table {
+    margin: auto;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d9edf7;
+}
